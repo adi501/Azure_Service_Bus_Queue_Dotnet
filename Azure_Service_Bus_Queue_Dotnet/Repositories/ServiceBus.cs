@@ -17,17 +17,14 @@ namespace Azure_Service_Bus_Queue_Dotnet.Repositories
         public async Task SendMessageAsync(CarDetails carDetails)
         {
             IQueueClient client = new QueueClient(_configuration["AzureServiceBusConnectionString"], _configuration["QueueName"]);
-
             //Serialize car details object
             var messageBody = JsonSerializer.Serialize(carDetails);
-
             //Set content type and Guid
             var message = new Message(Encoding.UTF8.GetBytes(messageBody))
             {
                 MessageId = Guid.NewGuid().ToString(),
                 ContentType = "application/json"
             };
-
             await client.SendAsync(message);
         }
     }

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure_Service_Bus_Queue_Dotnet", "Azure_Service_Bus_Queue_Dotnet\Azure_Service_Bus_Queue_Dotnet.csproj", "{0590CEE0-72B0-4732-96F9-B62498429720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure_Service_Bus_Queue_Dotnet", "Azure_Service_Bus_Queue_Dotnet\Azure_Service_Bus_Queue_Dotnet.csproj", "{0590CEE0-72B0-4732-96F9-B62498429720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure_Service_Bus_Queue_Trigger", "Azure_Service_Bus_Queue_Trigger\Azure_Service_Bus_Queue_Trigger.csproj", "{240323E4-DB78-4066-8228-21F724ED364E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure_Service_Bus_Queue_Trigger", "Azure_Service_Bus_Queue_Trigger\Azure_Service_Bus_Queue_Trigger.csproj", "{240323E4-DB78-4066-8228-21F724ED364E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure_Service_Bus_Queue_Receiver_Dotnet", "Azure_Service_Bus_Queue_Receiver_Dotnet\Azure_Service_Bus_Queue_Receiver_Dotnet.csproj", "{FBCA0686-E9E1-480A-B772-1E5B92FB220D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{240323E4-DB78-4066-8228-21F724ED364E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{240323E4-DB78-4066-8228-21F724ED364E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{240323E4-DB78-4066-8228-21F724ED364E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCA0686-E9E1-480A-B772-1E5B92FB220D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCA0686-E9E1-480A-B772-1E5B92FB220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCA0686-E9E1-480A-B772-1E5B92FB220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCA0686-E9E1-480A-B772-1E5B92FB220D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
